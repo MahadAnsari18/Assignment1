@@ -18,4 +18,4 @@ if(attendance>=75){
 }
 //Answer is ->
 //               Attendance: 62.5%
-//      The stuudent is not allowed to sit in exam    
+//      The student is not allowed to sit in exam    
