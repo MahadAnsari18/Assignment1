@@ -7,3 +7,5 @@ num tempInCelsius = 30;
 num tempInFahrenheit = (tempInCelsius * 9/5) +32;
 print("Temperature in Fahrenheit: $tempInFahrenheit");
 }
+//Answer is->
+//          Temperature in Fahrenheit: 86.0
