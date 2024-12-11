@@ -1,3 +1,3 @@
 void main(){
-  int aliAge 20;
+  int aliAge = 20;
 }
