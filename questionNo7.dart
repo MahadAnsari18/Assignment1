@@ -5,21 +5,21 @@
 import 'dart:io';
 void main(){
   print("Enter student name");
-  String studentName = stdin.readLineSync()!;
+  String studentName = (stdin.readLineSync()!);
   print("Enter student roll number");
-  num studentRollNumber = int.parse(stdin.readLineSync()!);
+  num studentRollNumber = num.parse(stdin.readLineSync()!);
   print("Enter student class");
-  num studentClass = int.parse(stdin.readLineSync()!);
+  num studentClass = num.parse(stdin.readLineSync()!);
   print("Enter marks of Maths");
-  num mathsMarks = int.parse(stdin.readLineSync()!);
+  num mathsMarks = num.parse(stdin.readLineSync()!);
   print("Enter marks of Physics");
-  num physicsMarks = int.parse(stdin.readLineSync()!);
+  num physicsMarks = num.parse(stdin.readLineSync()!);
   print("Enter marks of Computer");
-  num computerMarks = int.parse(stdin.readLineSync()!);
+  num computerMarks = num.parse(stdin.readLineSync()!);
   print("Enter marks of English");
-  num englishMarks = int.parse(stdin.readLineSync()!);
+  num englishMarks = num.parse(stdin.readLineSync()!);
   print("Enter marks of Islamiat");
-  num islamiatMarks = int.parse(stdin.readLineSync()!);
+  num islamiatMarks = num.parse(stdin.readLineSync()!);
   num obtainedMarks = (mathsMarks+physicsMarks+computerMarks+englishMarks+islamiatMarks);
   int totalMarks = 500;
   num percentage = (obtainedMarks * 100) /totalMarks;
@@ -43,4 +43,4 @@ void main(){
 }
 
 // Answer is->
-//             
+//             *
