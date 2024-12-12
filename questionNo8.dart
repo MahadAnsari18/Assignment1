@@ -10,3 +10,6 @@ if(digit%2==0){
 }
 
 }
+
+// Answer is->
+//            The number is even
